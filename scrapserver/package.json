@@ -1,0 +1,26 @@
+{
+  "name": "exlog-scraper",
+  "version": "1.0.0",
+  "description": "It is used to scrap article's url for exlog app",
+  "main": "index1.js",
+  "scripts": {
+    "test": "node index1.js"
+  },
+  "keywords": [
+    "exlog",
+    "articles",
+    "scrapping",
+    "urls",
+    "linkpreview"
+  ],
+  "author": "Atiya Rabbi",
+  "license": "ISC",
+  "dependencies": {
+    "@mrharel/scrappy": "^1.0.5",
+    "deasync": "^0.1.14",
+    "express": "^4.16.4",
+    "forever": "^0.15.3",
+    "request": "^2.88.0",
+    "x-ray": "^2.3.3"
+  }
+}
