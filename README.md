@@ -7,7 +7,11 @@ Update your profile picture, update your interest and read the best articles.
 Note: make sure you're running Ex-Log over https
 Usage
 Download all the files to your computer
-You have to run three servers: scrapserver, linkpreview, flask server
+In your command shell cd to the directory where requirements.txt is located
+run: pip install -r requirements.txt
+Then install the dependencies in the local node_modules folder
+inside package.json directory run: npm install
+Then You have to run three servers: scrapserver, linkpreview, flask server
 /scrapserver/node index.js
 /linkpreview/node index.js
 flask run
